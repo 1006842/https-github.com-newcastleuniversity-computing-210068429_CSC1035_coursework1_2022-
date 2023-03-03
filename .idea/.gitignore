@@ -6,3 +6,5 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+/.idea
+/https-github.com-newcastleuniversity-computing-210068429_CSC1035_coursework1_2022-.iml
