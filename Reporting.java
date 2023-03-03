@@ -17,8 +17,12 @@ public class Reporting {
         auctionHouses.add(auctionHouse);
     }
 
-    // Method to find the item with the highest price ever recorded
-    public Item getLargestPricedItem() {
+    // Method to add an item to the list
+
+    public void addItem(Item item) { Item.add(item);}
+
+    // Method to find the item with the largest price ever recorded
+    public static Item getLargestPricedItem() {
         Item largestPricedItem = null;
         double largestPrice = Double.MIN_VALUE;
         for (AuctionHouse auctionHouse : auctionHouses) {
@@ -31,7 +35,7 @@ public class Reporting {
         return largestPricedItem;
     }
 
-    // Method to find the auction house with the highest average price for a selectd year
+    // Method to find the auction house with the largest average price for a given year
     public static AuctionHouse getAuctionHouseWithLargestAveragePrice(int year) {
         AuctionHouse largestAveragePriceAuctionHouse = null;
         double largestAveragePrice = Double.MIN_VALUE;
@@ -45,8 +49,8 @@ public class Reporting {
         return largestAveragePriceAuctionHouse;
     }
 
-    // Method to find all items sold above a selected price across all auction houses
-    public List<Item> getItemsSoldAbovePrice(double price) {
+    // Method to find all items sold above a given price across all auction houses
+    public static List<Item> getItemsSoldAbovePrice(double price) {
         List<Item> itemsAbovePrice = new ArrayList<>();
         for (AuctionHouse auctionHouse : auctionHouses) {
             List<Item> items = auctionHouse.getItemsSoldAbovePrice(price);

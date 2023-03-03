@@ -12,8 +12,5 @@ auction house, and for tracking
 the performances of the houses.
 
 ### How to Run 
-Due to the lack of the class 
-ReportingIO, which is supposed
-to include the main method,
-the program does not
-really do anything.
+Run the ReportingIO file and make your selection 
+from the menu.

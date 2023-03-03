@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="https-github.com-newcastleuniversity-computing-210068429_CSC1035_coursework1_2022-" options="--add-exports java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED" />
+    </option>
+  </component>
+</project>

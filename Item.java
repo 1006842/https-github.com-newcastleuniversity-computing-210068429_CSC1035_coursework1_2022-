@@ -49,4 +49,7 @@ public class Item {
     public void setCategory(String category) {
         this.category = category;
     }
+
+    public static void add(Item item) {
+    }
 }
